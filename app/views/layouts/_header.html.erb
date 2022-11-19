@@ -7,11 +7,20 @@
     </svg>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 text-secondary">News</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Sketches</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Tatto masters</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+          <li>
+          <%= link_to t('header.menu.sketches'), sketches_path, class: current_link_class(sketches_path)%>
+          </li>
+          <li>
+          <%= link_to t('header.menu.tatto'), tatto_masters_path, class: current_link_class(tatto_masters_path)%>
+          </li>
+          <li>
+          <%= link_to t('header.menu.our'), our_works_path, class: current_link_class(our_works_path)%>
+          </li>
+          <li>
+          <%= link_to t('header.menu.reviews'), reviews_path, class: current_link_class(reviews_path)%>
+          </li>
+          <li>
+          <%= link_to t('header.menu.other'), other_path, class: current_link_class(other_path)%></li>
         </ul>
       </div>
     </div>
