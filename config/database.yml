@@ -1,0 +1,18 @@
+
+default: &default
+  adapter: postgresql
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
+  username: say_my_name
+
+development:
+  <<: *default
+  database: studio_dev
+
+development:
+  <<: *default
+  database: studio_test
+
+production:
+  <<: *default
+  database: studio_prod
