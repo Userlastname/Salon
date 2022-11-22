@@ -8,10 +8,6 @@ gem "puma", "~> 5.0"
 gem "pg"
 
 
-#auth
-gem 'devise'
-gem "devise-i18n"
-
 
 gem "sprockets-rails"
 gem "importmap-rails"
@@ -21,7 +17,15 @@ gem "jbuilder"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 gem 'jquery-rails'
+
+
 gem 'bootstrap', '~> 5.2.2'
+
+#auth
+gem 'devise'
+gem "devise-i18n"
+gem 'devise-bootstrap-views', '~> 1.0'
+
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
