@@ -17,6 +17,6 @@ class ArticlesController < ApplicationController
     end
 
     def other
-        render 'welcome/index'
+        render 'welcome/_other'
     end
 end

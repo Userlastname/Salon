@@ -1,12 +1,4 @@
 uk:
-  hello: "Hello world"
-  welcome:
-      title: "Needle Studio"
-      description: "Do you have extra money? Do you like pain, to talk heart to heart???? You can get it from us!"
-  header:
-    menu:
-      sketches: Sketches
-      tatto: Tatto masters
-      our: Our works
-      reviews: Reviews
-      other: Other
+  devise:
+    logout: 'Вихід'
+    account: 'Акаунт'
