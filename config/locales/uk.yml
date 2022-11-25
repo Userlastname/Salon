@@ -2,14 +2,16 @@ uk:
   devise:
     logout: 'Вихід'
     account: 'Акаунт'
+    new: Новий ескіз
     hello: "Hello world"
   welcome:
       title: "Needle Studio"
       description: "Do you have extra money? Do you like pain, to talk heart to heart???? You can get it from us!"
   header:
     menu:
-      sketches: Sketches
-      tatto: Tatto artists
-      our: Our works
-      reviews: Reviews
-      other: Other
+      sketches: Шаблони
+      tatto: Тату майстри
+      our: Наші роботи
+      reviews: Відгуки
+      other: Інше
+

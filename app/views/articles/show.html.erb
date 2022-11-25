@@ -1,0 +1,7 @@
+<%= render @article %>
+
+<div>
+  <%= link_to "Edit this sketches", edit_article_path(@article), class: 'btn btn-success'%> |
+  <%= link_to "Back to sketches", articles_path, class: 'btn btn-primary'%>
+  <%= link_to "Destroy", @article, method: :delete, class: 'btn btn-danger'  %>
+</div>
