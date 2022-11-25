@@ -23,12 +23,11 @@
         </ul>
         <% if user_signed_in? %>
         <div class="dropdown">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <button class="btn btn-ordinary dropdown-toggle shadow-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
   </button>
   <ul class="dropdown-menu dropdown-menu-secondary" style="">
-    <li><a class="dropdown-item" href="#">New project...</a></li>
-    <li><a class="dropdown-item" href="#">Settings</a></li>
+    <li><%= link_to t('devise.new'), new_article_path, class: 'dropdown-item' %></li>
     <li><%= link_to t('devise.account'), edit_user_registration_path, class: 'dropdown-item'%></li>
     <li><hr class="dropdown-divider"></li>
     <li>
@@ -36,16 +35,18 @@
     </li>
   </ul>
 </div>
-        <% else %>
-        <div class="text-end">
-        <%= link_to user_session_path do %>
-          <button type='button' class='btn btn-warning'>Log in</button>
-          <% end %>
+    <% else %>
+     <div class="text-end">
+      <%= link_to user_session_path do %>
+       <button type='button' class='btn btn-warning'><%= t('devise.sessions.new.sign_in')%></button>
+        <% end %>
           <%= link_to new_user_registration_path do %>
-            <button type='button' class='btn btn-secondary'>Sign up</button>
-            <% end %>
-            </div>
+          <button type='button' class='btn btn-secondary'><%= t('devise.registrations.new.sign_up')%></button>
+          <% end %>
+          </div>
         <% end %>
       </div>
     </div>
+
   </header>
+
