@@ -1,24 +1,34 @@
 uk:
+<<<<<<< HEAD
   devise:
     logout: 'Вихід'
     account: 'Акаунт'
     new: Новий ескіз
     hello: "Hello world"
+=======
+>>>>>>> parent of b86f324 (Added Devise registration/auth)
   hello: "Hello world"
   welcome:
       title: "Needle Studio"
       description: "Do you have extra money? Do you like pain, to talk heart to heart???? You can get it from us!"
   header:
     menu:
+<<<<<<< HEAD
       sketches: Шаблони
       tatto: Тату майстри
       our: Наші роботи
       reviews: Відгуки
       other: Інше
 
+=======
+>>>>>>> parent of b86f324 (Added Devise registration/auth)
       sketches: Sketches
       tatto: Tatto masters
       our: Our works
       reviews: Reviews
+<<<<<<< HEAD
       other: Other
       other: Other
+=======
+      other: Other
+>>>>>>> parent of b86f324 (Added Devise registration/auth)
