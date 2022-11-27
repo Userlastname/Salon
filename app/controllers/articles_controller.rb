@@ -67,4 +67,16 @@ class ArticlesController < ApplicationController
     def article_params
       params.require(:article).permit(:title, :body)
     end
+
+    def our_works
+        render 'welcome/index'
+    end
+
+    def reviews
+        render 'welcome/index'
+    end
+
+    def other
+        render 'welcome/index'
+    end
 end
