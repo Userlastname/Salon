@@ -1,7 +1,6 @@
 uk:
   devise:
     logout: 'Вихід'
-<<<<<<< HEAD
     account: 'Акаунт'
     new: Новий ескіз
     hello: "Hello world"
@@ -16,6 +15,8 @@ uk:
       reviews: Відгуки
       other: Інше
 
-=======
-    account: 'Акаунт'
->>>>>>> parent of d1dc334 (Add bootstrap class)
+      sketches: Sketches
+      tatto: Tatto masters
+      our: Our works
+      reviews: Reviews
+      other: Other

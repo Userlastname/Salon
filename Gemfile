@@ -7,12 +7,6 @@ gem "rails", "~> 7.0.4"
 gem "puma", "~> 5.0"
 gem "pg"
 
-
-#auth
-gem 'devise'
-gem "devise-i18n"
-
-
 gem "sprockets-rails"
 gem "importmap-rails"
 gem "turbo-rails"
